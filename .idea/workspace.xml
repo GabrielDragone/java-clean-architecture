@@ -5,15 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd5cfeec-bb6d-418f-8bad-6944eb0f6d1d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/Aluno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/CPF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/Email.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/Telefone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/alura/CPFTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/alura/EmailTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/alura/TelefoneTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/FabricaDeAluno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/Indicacao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/alura/FabricaDeAlunoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/Aluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/Aluno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/CPF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/CPF.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/Email.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/Email.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/Telefone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/Telefone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/alura/CPFTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/alura/CPFTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/alura/TelefoneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/alura/TelefoneTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,14 +41,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": ""
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="br.com.alura" />
@@ -59,8 +60,8 @@
       <recent name="br.com.alura" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TelefoneTest">
-    <configuration name="CPFTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.FabricaDeAlunoTest.deveCriarAluno">
+    <configuration name="CPFTest.deveCriarCPFComNumerosValidosComAssert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-clean-architecture" />
       <extension name="coverage">
         <pattern>
@@ -70,12 +71,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="br.com.alura" />
       <option name="MAIN_CLASS_NAME" value="br.com.alura.CPFTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="deveCriarCPFComNumerosValidosComAssert" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TelefoneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FabricaDeAlunoTest.deveCriarAluno" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-clean-architecture" />
       <extension name="coverage">
         <pattern>
@@ -84,8 +86,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="br.com.alura" />
-      <option name="MAIN_CLASS_NAME" value="br.com.alura.TelefoneTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="br.com.alura.FabricaDeAlunoTest" />
+      <option name="METHOD_NAME" value="deveCriarAluno" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -101,6 +104,22 @@
       <option name="PACKAGE_NAME" value="br.com.alura" />
       <option name="MAIN_CLASS_NAME" value="br.com.alura.TelefoneTest" />
       <option name="METHOD_NAME" value="deveCadastrarTelefoneComDddENumeroValidos" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TelefoneTest.deveCadastrarTelefoneComDddENumeroValidosComAssert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-clean-architecture" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.alura.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.alura" />
+      <option name="MAIN_CLASS_NAME" value="br.com.alura.TelefoneTest" />
+      <option name="METHOD_NAME" value="deveCadastrarTelefoneComDddENumeroValidosComAssert" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -122,29 +141,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TelefoneTest.naoDeveCadastrarTelefoneComNumeroInvalido" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-clean-architecture" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.alura.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="br.com.alura" />
-      <option name="MAIN_CLASS_NAME" value="br.com.alura.TelefoneTest" />
-      <option name="METHOD_NAME" value="naoDeveCadastrarTelefoneComNumeroInvalido" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TelefoneTest" />
+        <item itemvalue="JUnit.FabricaDeAlunoTest.deveCriarAluno" />
+        <item itemvalue="JUnit.CPFTest.deveCriarCPFComNumerosValidosComAssert" />
+        <item itemvalue="JUnit.TelefoneTest.deveCadastrarTelefoneComDddENumeroValidosComAssert" />
         <item itemvalue="JUnit.TelefoneTest.deveCadastrarTelefoneComDddENumeroValidos" />
-        <item itemvalue="JUnit.TelefoneTest.naoDeveCadastrarTelefoneComNumeroInvalido" />
         <item itemvalue="JUnit.TelefoneTest.naoDeveCadastrarTelefoneComDddInvalido" />
-        <item itemvalue="JUnit.CPFTest" />
       </list>
     </recent_temporary>
   </component>

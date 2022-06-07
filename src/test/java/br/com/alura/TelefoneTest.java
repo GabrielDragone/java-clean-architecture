@@ -10,7 +10,7 @@ class TelefoneTest {
     public void naoDeveCadastrarTelefoneComDddInvalido() {
         assertThrows(IllegalArgumentException.class, () -> new Telefone(null, null));
         assertThrows(IllegalArgumentException.class, () -> new Telefone("", null));
-        assertThrows(IllegalArgumentException.class, () -> new Telefone("4", null));
+        assertThrows(IllegalArgumentException.class, () -> new Telefone("41", null));
     }
 
     @Test
@@ -24,6 +24,17 @@ class TelefoneTest {
     public void deveCadastrarTelefoneComDddENumeroValidos() {
         assertDoesNotThrow(() -> new Telefone("41", "998858861"));
         assertDoesNotThrow(() -> new Telefone("13", "38641091"));
+    }
+
+    @Test
+    public void deveCadastrarTelefoneComDddENumeroValidosComAssert() {
+        String ddd = "41";
+        String numero = "998858861";
+
+        Telefone telefone = new Telefone(ddd, numero);
+
+        assertEquals(ddd, telefone.getDdd());
+        assertEquals(numero, telefone.getNumero());
     }
 
 }
