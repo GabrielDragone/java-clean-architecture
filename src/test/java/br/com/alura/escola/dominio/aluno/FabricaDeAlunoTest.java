@@ -1,10 +1,8 @@
-package br.com.alura.escola.aluno;
+package br.com.alura.escola.dominio.aluno;
 
-import br.com.alura.escola.aluno.Aluno;
-import br.com.alura.escola.aluno.FabricaDeAluno;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class FabricaDeAlunoTest {
 
