@@ -5,16 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd5cfeec-bb6d-418f-8bad-6944eb0f6d1d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/FabricaDeAluno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/Indicacao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/alura/FabricaDeAlunoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/Aluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/Aluno.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/CPF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/CPF.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/Email.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/Email.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/Telefone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/Telefone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/alura/CPFTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/alura/CPFTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/alura/TelefoneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/alura/TelefoneTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/Aluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/escola/aluno/Aluno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/CPF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/escola/aluno/CPF.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/Email.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/escola/aluno/Email.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/FabricaDeAluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/escola/aluno/FabricaDeAluno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/Indicacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/escola/indicacao/Indicacao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/escola/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/Telefone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/escola/aluno/Telefone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/alura/CPFTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/alura/escola/CPFTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/alura/EmailTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/alura/escola/EmailTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/alura/FabricaDeAlunoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/alura/escola/FabricaDeAlunoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/alura/TelefoneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/alura/escola/TelefoneTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,14 +44,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": ""
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="br.com.alura" />
@@ -177,12 +181,12 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/br/com/alura/EmailTest.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/br/com/alura/escola/EmailTest.java</url>
           <line>10</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/br/com/alura/Email.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/br/com/alura/escola/aluno/Email.java</url>
           <line>6</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>

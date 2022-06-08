@@ -1,4 +1,4 @@
-package br.com.alura;
+package br.com.alura.escola;
 
 public class Main {
     public static void main(String[] args) {
