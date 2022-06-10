@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd5cfeec-bb6d-418f-8bad-6944eb0f6d1d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/escola/infra/AlunoRepositoryJDBC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/escola/dominio/aluno/AlunoNaoEncontradoException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/escola/infra/AlunoRepositoryEmMemoria.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/escola/dominio/aluno/Aluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/escola/dominio/aluno/Aluno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/escola/infra/AlunoRepositoryJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/escola/infra/AlunoRepositoryJDBC.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +19,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
