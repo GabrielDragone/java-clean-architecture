@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd5cfeec-bb6d-418f-8bad-6944eb0f6d1d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/escola/dominio/aluno/CifradorDeSenha.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/escola/infra/CifradorDeSenhaComMD5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/alura/escola/infra/CifradorDeSenhaComMD5Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/escola/dominio/aluno/Aluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/escola/dominio/aluno/Aluno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/alura/escola/dominio/aluno/FabricaDeAlunoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/alura/escola/dominio/aluno/FabricaDeAlunoTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,9 +18,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -55,10 +56,11 @@
       <recent name="br.com.alura.escola.aluno" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="br.com.alura.escola.infra" />
       <recent name="br.com.alura" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FabricaDeAlunoTest.deveCriarAluno">
+  <component name="RunManager" selected="JUnit.CifradorDeSenhaComMD5Test.validarSenhaCifrada">
     <configuration name="CPFTest.deveCriarCPFComNumerosValidosComAssert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-clean-architecture" />
       <extension name="coverage">
@@ -70,6 +72,37 @@
       <option name="PACKAGE_NAME" value="br.com.alura" />
       <option name="MAIN_CLASS_NAME" value="br.com.alura.CPFTest" />
       <option name="METHOD_NAME" value="deveCriarCPFComNumerosValidosComAssert" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CifradorDeSenhaComMD5Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-clean-architecture" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.alura.escola.infra.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.alura.escola.infra" />
+      <option name="MAIN_CLASS_NAME" value="br.com.alura.escola.infra.CifradorDeSenhaComMD5Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CifradorDeSenhaComMD5Test.validarSenhaCifrada" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-clean-architecture" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.alura.escola.infra.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.alura.escola.infra" />
+      <option name="MAIN_CLASS_NAME" value="br.com.alura.escola.infra.CifradorDeSenhaComMD5Test" />
+      <option name="METHOD_NAME" value="validarSenhaCifrada" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -91,22 +124,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TelefoneTest.deveCadastrarTelefoneComDddENumeroValidos" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-clean-architecture" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.alura.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="br.com.alura" />
-      <option name="MAIN_CLASS_NAME" value="br.com.alura.TelefoneTest" />
-      <option name="METHOD_NAME" value="deveCadastrarTelefoneComDddENumeroValidos" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TelefoneTest.deveCadastrarTelefoneComDddENumeroValidosComAssert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-clean-architecture" />
       <extension name="coverage">
@@ -123,29 +140,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TelefoneTest.naoDeveCadastrarTelefoneComDddInvalido" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-clean-architecture" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.alura.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="br.com.alura" />
-      <option name="MAIN_CLASS_NAME" value="br.com.alura.TelefoneTest" />
-      <option name="METHOD_NAME" value="naoDeveCadastrarTelefoneComDddInvalido" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CifradorDeSenhaComMD5Test.validarSenhaCifrada" />
+        <item itemvalue="JUnit.CifradorDeSenhaComMD5Test" />
         <item itemvalue="JUnit.FabricaDeAlunoTest.deveCriarAluno" />
         <item itemvalue="JUnit.CPFTest.deveCriarCPFComNumerosValidosComAssert" />
         <item itemvalue="JUnit.TelefoneTest.deveCadastrarTelefoneComDddENumeroValidosComAssert" />
-        <item itemvalue="JUnit.TelefoneTest.deveCadastrarTelefoneComDddENumeroValidos" />
-        <item itemvalue="JUnit.TelefoneTest.naoDeveCadastrarTelefoneComDddInvalido" />
       </list>
     </recent_temporary>
   </component>
@@ -186,5 +187,10 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/java_clean_architecture$CifradorDeSenhaComMD5Test_validarSenhaCifrada.ic" NAME="CifradorDeSenhaComMD5Test.validarSenhaCifrada Coverage Results" MODIFIED="1655157603243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>br.com.alura.escola.infra.*</FILTER>
+    </SUITE>
   </component>
 </project>

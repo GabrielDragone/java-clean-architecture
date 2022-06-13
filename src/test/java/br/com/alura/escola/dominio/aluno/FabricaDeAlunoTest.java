@@ -20,8 +20,8 @@ class FabricaDeAlunoTest {
                 .criar();
 
         assertEquals(nome, alunoCriado.getNome());
-        assertEquals(cpf, alunoCriado.getCpf().getNumero());
-        assertEquals(email, alunoCriado.getEmail().getEndereco());
+        assertEquals(cpf, alunoCriado.getCpf());
+        assertEquals(email, alunoCriado.getEmail());
         assertEquals(ddd, alunoCriado.getTelefones().get(0).getDdd());
         assertEquals(numero, alunoCriado.getTelefones().get(0).getNumero());
     }
