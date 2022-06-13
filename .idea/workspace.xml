@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd5cfeec-bb6d-418f-8bad-6944eb0f6d1d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/escola/infra/CifradorDeSenhaComMD5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/alura/escola/infra/CifradorDeSenhaComMD5Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/escola/aplicacao/indicacao/EnviarEmailIndicacao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/escola/infra/indicacao/EnviarEmailIndicacaoComJavaMail.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/alura/escola/dominio/aluno/FabricaDeAlunoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/alura/escola/dominio/aluno/FabricaDeAlunoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/escola/infra/AlunoRepositoryEmMemoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/escola/infra/aluno/AlunoRepositoryEmMemoria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/escola/infra/AlunoRepositoryJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/escola/infra/aluno/AlunoRepositoryJDBC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/escola/infra/CifradorDeSenhaComMD5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/escola/infra/aluno/CifradorDeSenhaComMD5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/alura/escola/infra/CifradorDeSenhaComMD5Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/alura/escola/infra/aluno/CifradorDeSenhaComMD5Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,9 +21,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit5 Test Class" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -53,6 +56,7 @@
       <recent name="" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="br.com.alura.escola.infra.aluno" />
       <recent name="br.com.alura.escola.aluno" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
@@ -81,12 +85,12 @@
       <module name="java-clean-architecture" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.alura.escola.infra.*" />
+          <option name="PATTERN" value="br.com.alura.escola.infra.aluno.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="br.com.alura.escola.infra" />
-      <option name="MAIN_CLASS_NAME" value="br.com.alura.escola.infra.CifradorDeSenhaComMD5Test" />
+      <option name="PACKAGE_NAME" value="br.com.alura.escola.infra.aluno" />
+      <option name="MAIN_CLASS_NAME" value="br.com.alura.escola.infra.aluno.CifradorDeSenhaComMD5Test" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -96,12 +100,12 @@
       <module name="java-clean-architecture" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.alura.escola.infra.*" />
+          <option name="PATTERN" value="br.com.alura.escola.infra.aluno.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="br.com.alura.escola.infra" />
-      <option name="MAIN_CLASS_NAME" value="br.com.alura.escola.infra.CifradorDeSenhaComMD5Test" />
+      <option name="PACKAGE_NAME" value="br.com.alura.escola.infra.aluno" />
+      <option name="MAIN_CLASS_NAME" value="br.com.alura.escola.infra.aluno.CifradorDeSenhaComMD5Test" />
       <option name="METHOD_NAME" value="validarSenhaCifrada" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">

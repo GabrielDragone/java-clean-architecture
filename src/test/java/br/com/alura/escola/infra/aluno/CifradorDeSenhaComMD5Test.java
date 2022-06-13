@@ -1,6 +1,6 @@
-package br.com.alura.escola.infra;
+package br.com.alura.escola.infra.aluno;
 
-import org.junit.jupiter.api.BeforeAll;
+import br.com.alura.escola.infra.aluno.CifradorDeSenhaComMD5;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

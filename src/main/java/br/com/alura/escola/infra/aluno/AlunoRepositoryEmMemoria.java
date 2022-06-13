@@ -1,4 +1,4 @@
-package br.com.alura.escola.infra;
+package br.com.alura.escola.infra.aluno;
 
 import br.com.alura.escola.dominio.aluno.Aluno;
 import br.com.alura.escola.dominio.aluno.AlunoNaoEncontradoException;
