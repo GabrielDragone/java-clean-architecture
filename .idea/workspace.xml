@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd5cfeec-bb6d-418f-8bad-6944eb0f6d1d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/escola/MatricularAluno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/escola/InterfaceParaMatricularAluno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/escola/aplicacao/indicacao/MatricularAluno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/escola/aplicacao/indicacao/MatricularAlunoDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/escola/MatricularAluno.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +48,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="br.com.alura.escola.aplicacao.indicacao" />
       <recent name="br.com.alura" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -59,9 +63,9 @@
       <recent name="br.com.alura" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MatricularAluno">
-    <configuration name="MatricularAluno" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.alura.escola.MatricularAluno" />
+  <component name="RunManager" selected="Application.InterfaceParaMatricularAluno">
+    <configuration name="InterfaceParaMatricularAluno" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.alura.escola.InterfaceParaMatricularAluno" />
       <module name="java-clean-architecture" />
       <extension name="coverage">
         <pattern>
@@ -138,7 +142,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MatricularAluno" />
+        <item itemvalue="Application.InterfaceParaMatricularAluno" />
         <item itemvalue="JUnit.CifradorDeSenhaComMD5Test.validarSenhaCifrada" />
         <item itemvalue="JUnit.CifradorDeSenhaComMD5Test" />
         <item itemvalue="JUnit.FabricaDeAlunoTest.deveCriarAluno" />
