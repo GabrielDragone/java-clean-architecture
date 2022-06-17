@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd5cfeec-bb6d-418f-8bad-6944eb0f6d1d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/escola/InterfaceParaMatricularAluno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/escola/aplicacao/indicacao/MatricularAluno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/escola/aplicacao/indicacao/MatricularAlunoDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/alura/escola/aplicacao/indicacao/MatricularAlunoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/escola/MatricularAluno.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,9 +16,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -59,11 +56,12 @@
       <recent name="br.com.alura.escola.aluno" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="br.com.alura.escola.aplicacao.indicacao" />
       <recent name="br.com.alura.escola.infra" />
       <recent name="br.com.alura" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.InterfaceParaMatricularAluno">
+  <component name="RunManager" selected="JUnit.MatricularAlunoTest">
     <configuration name="InterfaceParaMatricularAluno" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.alura.escola.InterfaceParaMatricularAluno" />
       <module name="java-clean-architecture" />
@@ -73,22 +71,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CPFTest.deveCriarCPFComNumerosValidosComAssert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-clean-architecture" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.alura.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="br.com.alura" />
-      <option name="MAIN_CLASS_NAME" value="br.com.alura.CPFTest" />
-      <option name="METHOD_NAME" value="deveCriarCPFComNumerosValidosComAssert" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -124,17 +106,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FabricaDeAlunoTest.deveCriarAluno" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MatricularAlunoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-clean-architecture" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.alura.*" />
+          <option name="PATTERN" value="br.com.alura.escola.aplicacao.indicacao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="br.com.alura" />
-      <option name="MAIN_CLASS_NAME" value="br.com.alura.FabricaDeAlunoTest" />
-      <option name="METHOD_NAME" value="deveCriarAluno" />
+      <option name="PACKAGE_NAME" value="br.com.alura.escola.aplicacao.indicacao" />
+      <option name="MAIN_CLASS_NAME" value="br.com.alura.escola.aplicacao.indicacao.MatricularAlunoTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MatricularAlunoTest.alunoDeveriaSerPersistidoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-clean-architecture" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.alura.escola.aplicacao.indicacao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.alura.escola.aplicacao.indicacao" />
+      <option name="MAIN_CLASS_NAME" value="br.com.alura.escola.aplicacao.indicacao.MatricularAlunoTest" />
+      <option name="METHOD_NAME" value="alunoDeveriaSerPersistidoTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -142,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MatricularAlunoTest" />
+        <item itemvalue="JUnit.MatricularAlunoTest.alunoDeveriaSerPersistidoTest" />
         <item itemvalue="Application.InterfaceParaMatricularAluno" />
         <item itemvalue="JUnit.CifradorDeSenhaComMD5Test.validarSenhaCifrada" />
         <item itemvalue="JUnit.CifradorDeSenhaComMD5Test" />
-        <item itemvalue="JUnit.FabricaDeAlunoTest.deveCriarAluno" />
-        <item itemvalue="JUnit.CPFTest.deveCriarCPFComNumerosValidosComAssert" />
       </list>
     </recent_temporary>
   </component>
@@ -184,6 +181,21 @@
           <url>file://$PROJECT_DIR$/src/main/java/br/com/alura/escola/dominio/aluno/Email.java</url>
           <line>6</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/br/com/alura/escola/aplicacao/indicacao/MatricularAlunoTest.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/br/com/alura/escola/aplicacao/indicacao/MatricularAlunoTest.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/br/com/alura/escola/aplicacao/indicacao/MatricularAlunoTest.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
